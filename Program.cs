@@ -13,7 +13,7 @@ Console.WriteLine("\n----------------------------\n");
 
 for (int i = 1; i <= battleNumbers; i++)
 {
-    Console.WriteLine($"Battle {i} | EXP gained: {EXP} | Total EXP: {EXP} * {i}");
+    Console.WriteLine($"Battle {i} | EXP gained: {EXP} | Total EXP: {EXP * i}");
 }
 
 Console.WriteLine("\n === BATTLE COMPLETE === ");
